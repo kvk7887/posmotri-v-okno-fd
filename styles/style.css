@@ -213,8 +213,8 @@ ol {
   align-self: end;
 }
 .more-button {
-  width: 100%;
-  margin-top: 30px;
+  width: calc(100% - 4px);
+  margin: 30px 2px 2px;
 }
 
 .content__details {
@@ -244,8 +244,7 @@ ol {
   height: 298px;
   overflow-y: scroll;
   position: relative;
-  padding: 2px;
-}
+  }
 
 .content__list {
   display: flex;
