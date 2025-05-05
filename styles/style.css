@@ -18,10 +18,8 @@ html {
   background-color: #1b1919;
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 133px 30px;
-  height: 800px;
-}
+  }
 
 h1,
 h2,
@@ -64,16 +62,18 @@ ol {
 }
 
 .result {
-  height: 456px;
+  padding-bottom: 4px;
 }
 .result__video-container {
   margin-bottom: 16px;
+  width: 711px;
   height: 386px;
   position: relative;
 }
 
 .result__video {
   object-fit: cover;
+  object-position: center;
   width: 100%;
   height: 100%;
 }
@@ -141,6 +141,7 @@ ol {
   border-right-width: 0;
   color: #fff;
   font-size: 18px;
+  font-family: "Fira Sans Condensed", sans-serif;
   border-bottom: 1px solid #fff;
   border-top: 1px solid #fff;
   padding: 2px 0;
