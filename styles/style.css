@@ -18,6 +18,7 @@ html {
   background-color: #1b1919;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 133px 30px;
   }
 
@@ -92,7 +93,6 @@ ol {
 .search-form__fieldset-title {
   font-size: 18px;
   font-weight: 400;
-  line-height: 100%;
   letter-spacing: 0;
   margin-bottom: 5px;
 }
@@ -215,7 +215,7 @@ ol {
 }
 .more-button {
   width: calc(100% - 4px);
-  margin: 30px 2px 2px;
+  margin: 24px 2px 8px;
 }
 
 .content__details {
@@ -224,7 +224,7 @@ ol {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 26px;
+  gap: 22px;
 }
 
 .title {
@@ -232,7 +232,7 @@ ol {
   font-weight: 700;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
-  line-height: 94%;
+  line-height: 70px;
   letter-spacing: 0;
   color: #ffffff;
 }
@@ -242,7 +242,7 @@ ol {
 }
 
 .content__list-container {
-  height: 298px;
+  height: 305px;
   overflow-y: scroll;
   position: relative;
   }
@@ -250,13 +250,14 @@ ol {
 .content__list {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 24px;
 }
 
 .content__list-item {
   display: block;
   padding: 3px;
 }
+
 .content__list-item:hover {
   text-decoration: underline;
   cursor: pointer;
@@ -294,7 +295,7 @@ ol {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  margin-bottom: 6px;
+  margin-bottom: 3px;
 }
 
 .content__video-card-description-container {
